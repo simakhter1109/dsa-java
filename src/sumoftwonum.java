@@ -1,4 +1,4 @@
-public class sumoftwonum {
+public class Sumoftwonum {
 public static void main(String [] args){
     System.out.print("The sum of two numbers is: ");
     int num1= 3;
