@@ -62,5 +62,18 @@ public class BasicProblems {
         int square = x * x;
 
         System.out.println("Square is " + square);
+
+        // Problem 5: Voting eligibility
+
+        System.out.println("\n----- Problem 5: Voting Eligibility -----");
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+
+        if (age >= 18) {
+            System.out.println("You can vote.");
+        } else {
+            System.out.println("You cannot vote.");
+        }
     }
 }
