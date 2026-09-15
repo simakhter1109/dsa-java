@@ -65,7 +65,7 @@ public class BasicProblems {
 
         // Problem 5: Voting eligibility
 
-        System.out.println("\n----- Problem 5: Voting Eligibility -----");
+        System.out.println("\nProblem 5: Voting Eligibility");
 
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
@@ -74,6 +74,22 @@ public class BasicProblems {
             System.out.println("You can vote.");
         } else {
             System.out.println("You cannot vote.");
+        }
+
+        // Problem 6: Smaller Number
+
+        System.out.println("\nProblem 6: Smaller Number");
+
+        System.out.println("Enter first number: ");
+        int a1 = sc.nextInt();
+
+        System.out.println("Enter second number: ");
+        int a2 = sc.nextInt();
+
+        if(a1 < a2){
+            System.out.println("Smaller Number is " + a1);
+        }else{
+            System.out.println("Smaller Number is " + a2);
         }
     }
 }
