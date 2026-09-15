@@ -102,5 +102,16 @@ public class BasicProblems {
         for(int i = 1; i <= n; i ++){
             System.out.println(i);
         }
+
+        // Problem 8: Multiplication Table
+
+        System.out.println("\nProblem 8: Multiplication Table");
+
+        System.out.println("Enter a number: ");
+        int table = sc.nextInt();
+
+        for(int i = 1; i <= 10; i ++){
+            System.out.println(table + "x" + i + "=" + (table*i));
+        }
     }
 }
