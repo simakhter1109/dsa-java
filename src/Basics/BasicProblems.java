@@ -91,5 +91,16 @@ public class BasicProblems {
         }else{
             System.out.println("Smaller Number is " + a2);
         }
+
+        // Problem 7: Print numbers
+
+        System.out.println("\nProblem 7: Print numbers");
+
+        System.out.println("Enter a number: ");
+        int n = sc.nextInt();
+
+        for(int i = 1; i <= n; i ++){
+            System.out.println(i);
+        }
     }
 }
