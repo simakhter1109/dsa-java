@@ -113,5 +113,16 @@ public class BasicProblems {
         for(int i = 1; i <= 10; i ++){
             System.out.println(table + "x" + i + "=" + (table*i));
         }
+
+        // Problem 9: Backward Counting
+
+        System.out.println("\nProblem 9: Backward Counting");
+
+        System.out.println("Enter a number: ");
+        int count = sc.nextInt();
+
+        for(int i = count; i >= 1; i--){
+            System.out.println(i);
+        }
     }
 }
