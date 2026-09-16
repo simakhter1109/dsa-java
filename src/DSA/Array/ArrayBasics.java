@@ -16,6 +16,18 @@ public class ArrayBasics {
              System.out.print(arr[i] + " ");
          }
 
+         // PROBLEM 2: FIND THE SUM OF ARRAY ELEMENTS
+         int sum = 0;
+         for(int i =0; i<n; i++){
+             sum= sum + arr[i];
+         }
+         System.out.println();
+         System.out.println("Sum of array elements = " + sum);
+
+         // PROBLEM 3: FIND THE AVERAGE OF ARRAY ELEMENTS
+         double average = (double) sum / n;
+         System.out.println("Average of array elements = " + average);
+
          sc.close();
     }
 }
