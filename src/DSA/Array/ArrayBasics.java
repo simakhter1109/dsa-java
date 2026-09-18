@@ -28,6 +28,15 @@ public class ArrayBasics {
          double average = (double) sum / n;
          System.out.println("Average of array elements = " + average);
 
+         // PROBLEM 3: FIND THE LARGEST ELEMENT
+         int largest = arr[0];
+         for(int i = 1; i<n; i ++){
+             if (arr[i] > largest){
+                 largest = arr[i];
+             }
+         }
+         System.out.println("Largest element = " + largest);
+
          sc.close();
     }
 }
