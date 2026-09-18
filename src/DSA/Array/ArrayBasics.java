@@ -37,6 +37,16 @@ public class ArrayBasics {
          }
          System.out.println("Largest element = " + largest);
 
+         // PROBLEM 4: FIND THE SMALLEST ELEMENT
+        int smallest = arr[0];
+        for(int i = 1; i<n; i++){
+            if(arr[i] < smallest){
+                smallest = arr[i];
+            }
+        }
+         System.out.println("Smallest element = " + smallest);
+
+
          sc.close();
     }
 }
