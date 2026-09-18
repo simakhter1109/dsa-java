@@ -59,7 +59,7 @@ public class ArrayBasics {
         System.out.println("Even numbers = " + even );
         System.out.println("Odd numbers = " + odd);
 
-        // PROBLEM 7: COUNT POSITIVE, NEGATIVE AND ZEROS
+        // PROBLEM 6: COUNT POSITIVE, NEGATIVE AND ZEROS
         int positive = 0;
         int negative = 0;
         int zeros = 0;
@@ -75,6 +75,23 @@ public class ArrayBasics {
         System.out.println("Positive numbers = " + positive);
         System.out.println("Negative numbers = " + negative);
         System.out.println("Zeros = " + zeros);
+
+
+        // PROBLEM 7: SEARCH FOR A NUMBER
+        System.out.println("Enter number to search = ");
+        int search = sc.nextInt();
+        boolean found = false;
+        for(int i = 0; i<n; i++){
+            if (arr[i] == search){
+                found = true;
+                break;
+            }
+        }
+        if (found){
+            System.out.println("Number found.");
+        } else{
+            System.out.println("Number not found.");
+        }
 
 
          sc.close();
