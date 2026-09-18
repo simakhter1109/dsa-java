@@ -46,6 +46,18 @@ public class ArrayBasics {
         }
          System.out.println("Smallest element = " + smallest);
 
+        // PROBLEM 5: COUNT EVEN AND ODD NUMBERS
+        int even = 0;
+        int odd = 0;
+        for(int i = 0; i < n; i++){
+            if (arr[i] % 2 == 0){
+                even++;
+            }else{
+                odd++;
+            }
+        }
+        System.out.println("Even numbers = " + even );
+        System.out.println("Odd numbers = " + odd);
 
          sc.close();
     }
