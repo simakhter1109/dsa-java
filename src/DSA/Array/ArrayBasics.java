@@ -93,6 +93,21 @@ public class ArrayBasics {
             System.out.println("Number not found.");
         }
 
+        // PROBLEM 8: FIND THE INDEX OF A NUMBER
+        System.out.println("Enter number to search = ");
+        int search1 = sc.nextInt();
+        int index = -1;
+        for (int i = 0; i < n; i++){
+            if (arr[i] == search1) {
+                index = i;
+                break;
+            }
+        }
+        if(index != -1){
+            System.out.println("Number found at index " + index);
+        } else {
+            System.out.println("Number not found");
+        }
 
          sc.close();
     }
