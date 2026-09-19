@@ -1,4 +1,4 @@
-public class ConditionsAndLoops{
+public class Conditions{
     public static void main (String[] args){
 
         int salary = 254000;
