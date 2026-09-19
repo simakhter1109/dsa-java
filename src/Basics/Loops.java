@@ -36,12 +36,14 @@ public class Loops {
 //               }
 //           }
 //
-//           Scanner in = new Scanner(System.in);
+             // GET THE EVEN AND ODD NUMBERS
+
+           Scanner in = new Scanner(System.in);
 //
-//           System.out.println("Enter the initial number: ");
-//           int a = in.nextInt();
-//           System.out.println("Enter the last number: ");
-//           int b = in.nextInt();
+           System.out.println("Enter the initial number: ");
+           int a = in.nextInt();
+           System.out.println("Enter the last number: ");
+           int b = in.nextInt();
 //
 //           System.out.println("Even numbers are: ");
 //
@@ -58,6 +60,14 @@ public class Loops {
 //                   System.out.println(i);
 //               }
 //           }
+
+            // PROBLEM 5: SUM OF NUMBERS FROM 1 TO N
+            int sum = 0;
+            for (int i = a; i <= b; i++){
+                sum = sum + i;
+            }
+            System.out.println("Sum is " + sum);
+
 
 
 
