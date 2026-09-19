@@ -35,29 +35,31 @@ public class Loops {
 //                   System.out.println(i);
 //               }
 //           }
+//
+//           Scanner in = new Scanner(System.in);
+//
+//           System.out.println("Enter the initial number: ");
+//           int a = in.nextInt();
+//           System.out.println("Enter the last number: ");
+//           int b = in.nextInt();
+//
+//           System.out.println("Even numbers are: ");
+//
+//           for (int i = a; i <= b; i ++) {
+//               if (i % 2 == 0) {
+//                   System.out.println(i);
+//               }
+//           }
+//
+//           System.out.println("Odd numbers are: ");
+//
+//           for (int i = a; i <= b; i ++){
+//               if (i % 2 != 0){
+//                   System.out.println(i);
+//               }
+//           }
 
-           Scanner in = new Scanner(System.in);
 
-           System.out.println("Enter the initial number: ");
-           int a = in.nextInt();
-           System.out.println("Enter the last number: ");
-           int b = in.nextInt();
-
-           System.out.println("Even numbers are: ");
-
-           for (int i = a; i <= b; i ++) {
-               if (i % 2 == 0) {
-                   System.out.println(i);
-               }
-           }
-
-           System.out.println("Odd numbers are: ");
-
-           for (int i = a; i <= b; i ++){
-               if (i % 2 != 0){
-                   System.out.println(i);
-               }
-           }
 
     }
 }
