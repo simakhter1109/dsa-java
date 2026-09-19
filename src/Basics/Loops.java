@@ -40,10 +40,10 @@ public class Loops {
 
            Scanner in = new Scanner(System.in);
 //
-           System.out.println("Enter the initial number: ");
-           int a = in.nextInt();
-           System.out.println("Enter the last number: ");
-           int b = in.nextInt();
+//           System.out.println("Enter the initial number: ");
+//           int a = in.nextInt();
+//           System.out.println("Enter the last number: ");
+//           int b = in.nextInt();
 //
 //           System.out.println("Even numbers are: ");
 //
@@ -61,14 +61,23 @@ public class Loops {
 //               }
 //           }
 
-            // PROBLEM 5: SUM OF NUMBERS FROM 1 TO N
-            int sum = 0;
-            for (int i = a; i <= b; i++){
-                sum = sum + i;
-            }
-            System.out.println("Sum is " + sum);
+//            // PROBLEM 5: SUM OF NUMBERS FROM 1 TO N
+//            int sum = 0;
+//            for (int i = a; i <= b; i++){
+//                sum = sum + i;
+//            }
+//            System.out.println("Sum is " + sum);
 
 
+              // PROBLEM 6: COUNT DIGITS
+              System.out.println("Enter a number: ");
+              int num = in.nextInt();
+              int count = 0;
+              while (num != 0){
+                  num = num/10;
+                  count ++;
+              }
+              System.out.println("Number of digits: " + count);
 
 
     }
