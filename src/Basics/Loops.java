@@ -69,15 +69,39 @@ public class Loops {
 //            System.out.println("Sum is " + sum);
 
 
-              // PROBLEM 6: COUNT DIGITS
-              System.out.println("Enter a number: ");
-              int num = in.nextInt();
-              int count = 0;
-              while (num != 0){
-                  num = num/10;
-                  count ++;
-              }
-              System.out.println("Number of digits: " + count);
+//              // PROBLEM 6: COUNT DIGITS
+//              System.out.println("Enter a number: ");
+//              int num = in.nextInt();
+//              int count = 0;
+//              while (num != 0){
+//                  num = num/10;
+//                  count ++;
+//              }
+//              System.out.println("Number of digits: " + count);
+
+
+//                // PROBLEM 7: SUM OF THE DIGITS
+//                System.out.println("Enter a number: ");
+//                int num = in.nextInt();
+//                int sum = 0;
+//                while (num != 0){
+//                    int digit = num % 10;
+//                    sum = sum + digit;
+//                    num = num/10;
+//                }
+//                System.out.println("Sum of digits: " + sum);
+
+
+                  // PROBLEM 8: REVERSE A NUMBER
+                  System.out.println("Enter a number: ");
+                  int num = in.nextInt();
+                  int reverse = 0;
+                  while (num != 0){
+                      int digit = num % 10;
+                      reverse = reverse * 10 + digit;
+                      num = num / 10;
+                  }
+                  System.out.println("Reverse number: " + reverse);
 
 
     }
