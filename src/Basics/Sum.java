@@ -1,9 +1,20 @@
 import java.util.Scanner;
 public class Sum {
     public static void main(String[] args){
-        int ans = sum2();
-        System.out.println(ans);
+//        int ans = sum2();
+//        System.out.println(ans);
+
+          int ans = sum3(10,20);
+          System.out.println(ans);
+
     }
+
+    // pass the value of numbers when you are calling the method in msin()
+    static int sum3(int a, int b){
+        int sum = a + b;
+        return sum;
+    }
+
 
     // return the value
     static int sum2() {
