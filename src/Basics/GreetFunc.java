@@ -5,20 +5,22 @@ public class GreetFunc {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = sc.next();
-        String personalised = myGreet(name);
+        System.out.println("Enter your surname: ");
+        String surname = sc.next();
+        String personalised = myGreet(name, surname);
         System.out.println(personalised);
-        String message = greet(name);
+        String message = greet(name, surname);
         System.out.println(message);
 
     }
 
-    static String myGreet(String name){
-        String message = "Hello " + name;
+    static String myGreet(String name, String surname){
+        String message = "Hello " + name + " "+ surname;
         return message;
     }
 
-    static String greet(String name) {
-        String greeting = "How are you?" + name;
+    static String greet(String name, String surname) {
+        String greeting = "How are you? " + name + " " + surname;
         return greeting;
     }
 
