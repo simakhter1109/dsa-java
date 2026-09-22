@@ -2,15 +2,13 @@ import java.util.Scanner;
 public class GreetFunc {
     public static void main(String[] args) {
 
-        String message = greet();
-        System.out.println(message);
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = sc.next();
         String personalised = myGreet(name);
         System.out.println(personalised);
-
+        String message = greet(name);
+        System.out.println(message);
 
     }
 
@@ -19,8 +17,8 @@ public class GreetFunc {
         return message;
     }
 
-    static String greet() {
-        String greeting = "How are you?";
+    static String greet(String name) {
+        String greeting = "How are you?" + name;
         return greeting;
     }
 
