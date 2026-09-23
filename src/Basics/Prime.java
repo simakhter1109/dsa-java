@@ -18,7 +18,7 @@ public class Prime {
             }
             c++;
         }
-        return c * c > n;
+         return c * c > n;
     }
 
 }
