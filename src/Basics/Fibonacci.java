@@ -1,17 +1,24 @@
 import java.util.Scanner;
-public class Fibonacci{
-    public static void main(String[] args){
-        Scanner sc = new Scanner (System.in);
+
+public class Fibonacci {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of terms: ");
         int n = sc.nextInt();
+
         int a = 0;
         int b = 1;
-        int count = 2;
-        while (count <= n){
-            int temp = b;
-            b = b + a;
-            a = temp;
-            count++;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+
+            int temp = a;
+            a = b;
+            b = temp + b;
         }
-        System.out.println(b);
+
+        sc.close();
     }
 }
