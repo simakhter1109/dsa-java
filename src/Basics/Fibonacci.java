@@ -19,6 +19,26 @@ public class Fibonacci {
             b = temp + b;
         }
 
+
+        // USING WHILE LOOP
+        System.out.print("Enter number of terms: ");
+        int p = sc.nextInt();
+
+        int d = 0;
+        int r = 1;
+        int count = 0;
+
+        while (count < n) {
+
+            System.out.print(d + " ");
+
+            int next = d + r;
+            d = r;
+            r = next;
+
+            count++;
+        }
+
         sc.close();
     }
 }
